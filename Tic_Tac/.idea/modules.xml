@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic_Tac.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic_Tac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Tic_Tac.Problems-Does_an_array_contain_N.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Tic_Tac.Problems-Does_an_array_contain_N.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Tic_Tac.Problems-Does_an_array_contain_N.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Tic_Tac.Problems-Does_an_array_contain_N.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Tic_Tac.Problems-Does_an_array_contain_N.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Tic_Tac.Problems-Does_an_array_contain_N.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of integers/Tic_Tac.Problems-Initializing_an_array_of_integers.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of integers/Tic_Tac.Problems-Initializing_an_array_of_integers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of integers/Tic_Tac.Problems-Initializing_an_array_of_integers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of integers/Tic_Tac.Problems-Initializing_an_array_of_integers.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of integers/Tic_Tac.Problems-Initializing_an_array_of_integers.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of integers/Tic_Tac.Problems-Initializing_an_array_of_integers.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Tic_Tac.Problems-Initializing_an_array_of_longs.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Tic_Tac.Problems-Initializing_an_array_of_longs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Tic_Tac.Problems-Initializing_an_array_of_longs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Tic_Tac.Problems-Initializing_an_array_of_longs.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Tic_Tac.Problems-Initializing_an_array_of_longs.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Tic_Tac.Problems-Initializing_an_array_of_longs.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/task/Tic_Tac.Tic-Tac-Toe-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/task/Tic_Tac.Tic-Tac-Toe-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/task/Tic_Tac.Tic-Tac-Toe-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/task/Tic_Tac.Tic-Tac-Toe-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/task/Tic_Tac.Tic-Tac-Toe-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/task/Tic_Tac.Tic-Tac-Toe-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Tic_Tac.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Tic_Tac.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Tic_Tac.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Tic_Tac.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Tic_Tac.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Tic_Tac.util.test.iml" />
+    </modules>
+  </component>
+</project>
