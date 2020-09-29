@@ -4,6 +4,7 @@ import java.awt.desktop.SystemSleepEvent;
 import java.util.Arrays;
 import java.util.Scanner;
 
+
 public class Main {
 
     public static void draw(String[] mass) {
@@ -21,18 +22,22 @@ public class Main {
         }
 
         System.out.println("---------");
-
     }
-
 
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         String[] mass = scanner.next().split("");
 
-        //System.out.println(mass[1]);
-        //System.out.println(Arrays.toString(mass));
+
         draw(mass);
+
+        if (Statement.countXO(mass)) {
+            System.out.println(Statement.error_position(mass));
+        }
+        else{
+            System.out.println("Impossible");
+        }
 
 
     }

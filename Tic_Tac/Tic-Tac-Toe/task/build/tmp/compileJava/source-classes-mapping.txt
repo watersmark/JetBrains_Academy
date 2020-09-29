@@ -1,2 +1,6 @@
 tictactoe/Main.java
  tictactoe.Main
+tictactoe/Seek_elements.java
+ tictactoe.Seek_elements
+tictactoe/Statement.java
+ tictactoe.Statement
