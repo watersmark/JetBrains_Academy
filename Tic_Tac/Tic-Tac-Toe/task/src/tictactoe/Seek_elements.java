@@ -35,7 +35,7 @@ public class Seek_elements {
 
         }
 
-        // Ищем по диагоналям
+        // Ищем по диагонали главной
         if (new_mass[0][0].equals(new_mass[1][1])
                 && new_mass[1][1].equals(new_mass[2][2])) {
 

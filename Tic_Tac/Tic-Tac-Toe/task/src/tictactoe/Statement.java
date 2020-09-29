@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 public class Statement {
 
+    // Временная функция печати элементов из ArrayList<int[]>
     public static void temp_print(ArrayList<int[]> elem) {
 
         for (int[] ts : elem) {
@@ -89,11 +90,13 @@ public class Statement {
             }
         }
 
+
+        // Выводим позиции победителей(temp)
         //temp_print(mass_x);
         //temp_print(mass_y);
 
 
-        // Ищем повторы
+        // Выводим информацию о ситуации на поле
         if(mass_x.size() != 0 && mass_y.size() != 0){
             return "Impossible";
         }

@@ -1,6 +1,8 @@
-tictactoe/Main.java
- tictactoe.Main
-tictactoe/Seek_elements.java
- tictactoe.Seek_elements
 tictactoe/Statement.java
  tictactoe.Statement
+tictactoe/Seek_elements.java
+ tictactoe.Seek_elements
+tictactoe/UserStep.java
+ tictactoe.UserStep
+tictactoe/Main.java
+ tictactoe.Main
