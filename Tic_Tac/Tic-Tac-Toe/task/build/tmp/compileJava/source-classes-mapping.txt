@@ -1,8 +1,10 @@
-tictactoe/Statement.java
- tictactoe.Statement
-tictactoe/Seek_elements.java
- tictactoe.Seek_elements
-tictactoe/UserStep.java
- tictactoe.UserStep
+tictactoe/StepPlayer.java
+ tictactoe.StepPlayer
+tictactoe/ErrorClass.java
+ tictactoe.ErrorClass
+tictactoe/Draw.java
+ tictactoe.Draw
+tictactoe/CheckSytuation.java
+ tictactoe.CheckSytuation
 tictactoe/Main.java
  tictactoe.Main

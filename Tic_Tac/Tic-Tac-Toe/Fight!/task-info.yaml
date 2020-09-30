@@ -1,17 +1,6 @@
 type: edu
 custom_name: stage5
 files:
-- name: src/tictactoe/Main.java
-  visible: true
-  text: |
-    package tictactoe;
-
-    public class Main {
-        public static void main(String[] args) {
-            // write your code here
-        }
-    }
-  learner_created: false
 - name: test/TicTacToeTest.java
   visible: false
   text: |
@@ -439,6 +428,25 @@ files:
         }
     }
   learner_created: false
+- name: src/tictactoe/Main.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/StepPlayer.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/CheckSytuation.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/ErrorClass.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/Draw.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/48/stages/259/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/48/stages/259/implement">JetBrains
+    Academy</a>
+  time: Wed, 30 Sep 2020 08:42:02 UTC
 record: -1
