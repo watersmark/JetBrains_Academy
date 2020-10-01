@@ -19,6 +19,7 @@ class CoffeParam {
 
 
     public static void coffeMachineNow() {
+
         System.out.println("The coffee machine has:");
         System.out.println(String.format("%d of water", CoffeParam.water));
         System.out.println(String.format("%d of milk", CoffeParam.milk));
@@ -43,13 +44,15 @@ class CoffeParam {
         System.out.println(String.format("I gave you %d", money));
         money = 0;
     }
+
 }
 
 
 public class CoffeeMachine {
 
-    public static void actionMachine(Scanner scanner) {
-        System.out.println("Write action (buy, fill, take):");
+    public static boolean actionMachine(Scanner scanner) {
+        
+        System.out.println("Write action (buy, fill, take, remaining, exit): ");
 
         BuyCoffe coffe = new BuyCoffe();
         String action = scanner.nextLine();
@@ -59,27 +62,40 @@ public class CoffeeMachine {
             case "buy":
                 coffe.buyCoffe(scanner);
                 break;
+
             case "fill":
                 CoffeParam.coffeMachineFill(scanner);
                 break;
+
             case "take":
                 CoffeParam.getMoney();
                 break;
 
+            case "remaining":
+                CoffeParam.coffeMachineNow();
+                break;
+
+            case "exit":
+                return false;
         }
+
+        return true;
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //Выводим начальное состояние кофемашины
-        CoffeParam.coffeMachineNow();
+        while (true) {
+            //Выводим начальное состояние кофемашины
+            //CoffeParam.coffeMachineNow();
 
-        //
-        actionMachine(scanner);
+            //Выбираем следующее действие
+            if(!actionMachine(scanner)) break;
 
-        // после операции выводим состояние кофемашины
-        CoffeParam.coffeMachineNow();
+
+            // после операции выводим состояние кофемашины
+            //CoffeParam.coffeMachineNow();
+        }
 
 
     }
