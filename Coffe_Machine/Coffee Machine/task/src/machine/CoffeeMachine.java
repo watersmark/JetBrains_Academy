@@ -50,17 +50,18 @@ class CoffeParam {
 
 public class CoffeeMachine {
 
-    public static boolean actionMachine(Scanner scanner) {
-        
+    public static boolean actionMachine() {
+
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Write action (buy, fill, take, remaining, exit): ");
 
         BuyCoffe coffe = new BuyCoffe();
-        String action = scanner.nextLine();
+        String action = scanner.next();
 
         switch (action) {
 
             case "buy":
-                coffe.buyCoffe(scanner);
+                coffe.buyCoffe();
                 break;
 
             case "fill":
@@ -90,7 +91,7 @@ public class CoffeeMachine {
             //CoffeParam.coffeMachineNow();
 
             //Выбираем следующее действие
-            if(!actionMachine(scanner)) break;
+            if(!actionMachine()) break;
 
 
             // после операции выводим состояние кофемашины

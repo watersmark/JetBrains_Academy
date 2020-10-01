@@ -45,7 +45,8 @@ public class BuyCoffe {
     }
 
     // Выбираем напиток для приготовления
-    public void buyCoffe(Scanner scanner) {
+    public void buyCoffe() {
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("What do you want to buy? 1 - espresso, " +
                 "2 - latte, " +
