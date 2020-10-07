@@ -3,30 +3,17 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        char a = '^';
+        System.out.println((int) a);
 
-        int count = scanner.nextInt();
-        int sum = 0;
-        int elem_last = 0;
+        String hex = Integer.toHexString((int) a);
+        System.out.println(hex);
+        String octopus = "456";
 
-        for (int i = 0; i < count; i++) {
 
-            if (i == 0) {
-                elem_last = scanner.nextInt();
-                continue;
-            }
+        System.out.println(Integer.parseInt(hex, 16));
+        System.out.println(Integer.parseInt(octopus, 8));
 
-            int elem_temp = scanner.nextInt();
-
-            if (sum < elem_last * elem_temp) {
-                sum = elem_last * elem_temp;
-            }
-
-            elem_last = elem_temp;
-
-        }
-
-        System.out.println(sum);
 
     }
 }
