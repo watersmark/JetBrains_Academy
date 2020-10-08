@@ -1,29 +1,68 @@
 package converter;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public static String prefix(int radix){
-        if(radix == 16){
-            return "0x";
+
+    // Преобразуем набор из одной системы счисления в другую
+    public static long convertToDecimal(String digit, String radix) {
+
+        // Обработка частного сучая
+        if (radix.equals("1")) {
+            String[] mass = digit.split("");
+
+            long oneSum = 0;
+
+            for (int i = 0; i < mass.length; i++) {
+                oneSum += 1;
+            }
+
+            return oneSum;
+        } else {  // Обработка общего случая
+            long elem = Long.parseLong(digit, Integer.parseInt(radix));
+            return elem;
         }
-        if(radix == 2){
-            return "0b";
+    }
+
+    // Преобразуем в новую систему отсчёта
+    public static String convertToNewSystem(long digit, String radix){
+        String resStr = "";
+
+        if(radix.equals("1")){
+
+            for(int i =0; i < digit; i++){
+                resStr += "1";
+
+            }
+
+            return resStr;
         }
-         return "0";
+        else {
+            resStr = Long.toString(digit, Integer.parseInt(radix));
+            return resStr;
+        }
 
     }
+
+
 
     public static void main(String[] args) {
 
-       Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-       long dec = scanner.nextLong();
-       int radix = scanner.nextInt();
-       String prefix = prefix(radix);
+        String radStart = scanner.nextLine();
+        String digit = scanner.nextLine();
+        String radNew = scanner.nextLine();
 
-        String digit = Long.toString(dec, radix);
-        System.out.println(String.format("%s%s", prefix, digit ));
+        // Преобразовали число в десятичный вид
+        long decDigit = convertToDecimal(digit, radStart);
+
+        // Получаем число в новой системе отсчёта
+        String resStr = convertToNewSystem(decDigit, radNew);
+
+        System.out.println(resStr);
 
     }
+
 }
