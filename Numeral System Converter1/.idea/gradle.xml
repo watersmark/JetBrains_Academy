@@ -11,8 +11,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Problems/Celsius to Fahrenheit" />
+            <option value="$PROJECT_DIR$/Problems/Compression algorithm" />
+            <option value="$PROJECT_DIR$/Problems/Concat all strings without digits" />
+            <option value="$PROJECT_DIR$/Problems/Double characters" />
             <option value="$PROJECT_DIR$/Problems/Evaluate an expression" />
             <option value="$PROJECT_DIR$/Problems/Find X" />
+            <option value="$PROJECT_DIR$/Problems/Palindrome" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
