@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CorrecterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-27T13:37:28" hostname="DESKTOP-R71U7SI" time="0.07">
+  <properties/>
+  <testcase name="start" classname="CorrecterTest" time="0.07"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+> Some text to test
+7om1 t6xt6to2te2t
+?[1;31m
+Start test 2?[0m
+> send message to user with id #42354
+3en3 m2ss4ge4to3us4r 0it2 i3 #12374
+?[1;31m
+Start test 3?[0m
+> thq
+5hq
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
