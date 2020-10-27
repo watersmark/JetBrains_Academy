@@ -11,7 +11,7 @@ class FixingArithmeticException {
         int d = scanner.nextInt();
 
         try {
-            
+
             int result = a / ((b + c) / d);
             System.out.println(result);
         }
