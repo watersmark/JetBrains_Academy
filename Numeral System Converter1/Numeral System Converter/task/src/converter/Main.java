@@ -110,7 +110,7 @@ public class Main {
         characterIntegerMap.put('n', 23);
         characterIntegerMap.put('o', 24);
         characterIntegerMap.put('p', 25);
-        characterIntegerMap.put('q', 26);
+        characterIntegerMap.put('q', 26);Pe
         characterIntegerMap.put('r', 27);
         characterIntegerMap.put('s', 28);
         characterIntegerMap.put('t', 29);

@@ -8,15 +8,17 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="java version &quot;11.0.8+10&quot;" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Numeral System Converter/task" />
             <option value="$PROJECT_DIR$/Problems/Account" />
+            <option value="$PROJECT_DIR$/Problems/Avoid division by zero" />
             <option value="$PROJECT_DIR$/Problems/Binary search" />
             <option value="$PROJECT_DIR$/Problems/Book" />
             <option value="$PROJECT_DIR$/Problems/Celsius to Fahrenheit" />
+            <option value="$PROJECT_DIR$/Problems/Classes for Hospital" />
             <option value="$PROJECT_DIR$/Problems/Compression algorithm" />
             <option value="$PROJECT_DIR$/Problems/Concat all strings without digits" />
             <option value="$PROJECT_DIR$/Problems/Creating instances" />
