@@ -6,28 +6,40 @@ import java.util.Scanner;
 public class Main {
     public static Map<Character, Integer> characterIntegerMap = new HashMap<>();
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int sourceNumSystem = scanner.nextInt();
-        scanner.nextLine();
-        String[] sourceNumber = scanner.nextLine().split("\\.");
-        int newNumSystem = scanner.nextInt();
 
-        String decimal = sourceNumber[0];
-        String fractional = sourceNumber.length > 1 && newNumSystem != 1 ? sourceNumber[1] : "";
-        // get number in base 10 system
-        int convertedDecimalNumber = convertNumber(decimal, sourceNumSystem);
-        double convertedFractionalNumber = fractional.equals("") || fractional.equals("0") ? 0 : fractionalToDecimal(fractional, sourceNumSystem);
+        try {
 
-        String convertedNumberString;
-        if (convertedFractionalNumber > 0) {
-            convertedNumberString = convertNumberString(newNumSystem, convertedDecimalNumber) + "." +
-                    fractionalToAnySystem(convertedFractionalNumber, newNumSystem);
-        } else {
-            convertedNumberString = convertNumberString(newNumSystem, convertedDecimalNumber);
+            Scanner scanner = new Scanner(System.in);
+            int sourceNumSystem = scanner.nextInt();
+            scanner.nextLine();
+            String[] sourceNumber = scanner.nextLine().split("\\.");
+            int newNumSystem = scanner.nextInt();
+
+            if(newNumSystem <= 0 || sourceNumSystem <= 0 || newNumSystem > 36){
+                throw  new Exception();
+            }
+
+            String decimal = sourceNumber[0];
+            String fractional = sourceNumber.length > 1 && newNumSystem != 1 ? sourceNumber[1] : "";
+            // get number in base 10 system
+            int convertedDecimalNumber = convertNumber(decimal, sourceNumSystem);
+            double convertedFractionalNumber = fractional.equals("") || fractional.equals("0") ? 0 : fractionalToDecimal(fractional, sourceNumSystem);
+
+            String convertedNumberString;
+            if (convertedFractionalNumber > 0) {
+                convertedNumberString = convertNumberString(newNumSystem, convertedDecimalNumber) + "." +
+                        fractionalToAnySystem(convertedFractionalNumber, newNumSystem);
+            } else {
+                convertedNumberString = convertNumberString(newNumSystem, convertedDecimalNumber);
+            }
+
+
+            System.out.println(convertedNumberString);
         }
-
-
-        System.out.println(convertedNumberString);
+        catch (Exception e){
+            System.out.println("error");
+            return;
+        }
     }
 
     public static int convertNumber(String sourceNumber, int sourceNumSystem) {
@@ -110,7 +122,7 @@ public class Main {
         characterIntegerMap.put('n', 23);
         characterIntegerMap.put('o', 24);
         characterIntegerMap.put('p', 25);
-        characterIntegerMap.put('q', 26);Pe
+        characterIntegerMap.put('q', 26);
         characterIntegerMap.put('r', 27);
         characterIntegerMap.put('s', 28);
         characterIntegerMap.put('t', 29);
