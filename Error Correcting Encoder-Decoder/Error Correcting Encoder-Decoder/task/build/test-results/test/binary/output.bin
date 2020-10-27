@@ -1,12 +1,21 @@
 [1;31m
 Start test 1[0m
 > Some text to test
-7om1 t6xt6to2te2t
+Some text to test
+5SSSooommmeee   ttteeexxxttt   tttooo   ttteeesssttt
+54SS6oo0mm6ee6  2tt5ee2xx0tt2  4tt2oo2  8tt3ee0ss0tt
+Some text to test
 [1;31m
 Start test 2[0m
 &> send message to user with id #42354
-%3en3 m2ss4ge4to3us4r 0it2 i3 #12374
+%send message to user with id #42354
+kssseeennnddd   mmmeeessssssaaagggeee   tttooo   uuussseeerrr   wwwiiittthhh   iiiddd   ###444222333555444
+k0ss0ee1nn0dd3  6mm6ee7ss6ss0aa3gg6ee3  8tt6oo3  7uu6ss7ee5rr3  3ww4ii3tt6hh4  5ii3dd8  1##644622233155744
+%send message to user with id #42354
 [1;31m
 Start test 3[0m
 > thq
-5hq
+thq
+ttthhhqqq
+6tt4hh8qq
+thq
